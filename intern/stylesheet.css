@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+/* for navbar */
+div .nav{
+    display: flex;
+    background:yellow;
+    height: 5%;
+}
+.nav-link{
+ list-style: none;
+ padding-left:20px;
+ padding-right:10px;
+ margin:auto;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.nav-link a:hover {
+    color:white;
+    background:black;
+    border:solid magenta;
+}
+
+/*for middle content */
+.middle-content{
+    display: flex;
+    width:100%;
+}
+/* side bar */
+.sidebar{
+    padding-top:20px;
+    background:blue;
+    min-width: 30%;
+    
+}
+div.side-header{
+    padding-bottom: 5pxpx;
+    border-bottom: solid black;
+    padding-left:10px;  
+    padding-top:10px;
+    color:white;
+}
+ 
+.side-link{
+    padding-top: 10px;
+    list-style: none;
+    padding-left:10px;  
+}
+
+.side-link a{
+    color:white;
+}
+.side-link a:hover{
+    font-size: 20px;
+    color:yellow;
+}
+
+/* content */
+div .content{
+    min-width:70%;
+    background:green;
+    padding-top:10px;
+    padding-left:10px;
+}
+
+div .content .content-item{
+    display:inline;
+    
+}
+/* footer */
+.footer{
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-height:10%;
+   
+    
+}
+
+
+.bg-info {
+    background-color: brown;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky-1 {
+    position:fixed;
+  }
